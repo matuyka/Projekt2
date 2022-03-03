@@ -1,6 +1,6 @@
 aside {
 	background: rgb(75, 85, 99);
-	width: 33.333333%;
+	width: 33.33333%;
 }
 
 /* CLOSE, MINIMIZE, MAXIMIZE */
@@ -70,12 +70,91 @@ input::placeholder {
 
 }
         
-.add-new button {background: black;
+.add-new button {background: rgb(22, 22, 22);
     font-size: 1.5rem;
     padding-top: 0.215rem;
     border: none;
     color: white;
 
 }
+/* NAVIGATION */
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0.5rem;
+}
+
+nav a {
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	color: white
+	
+}
+
+nav a:hover,
+nav a:active {
+	color: white
+}
+
+nav .today:hover,
+nav .today:active{
+	background-color: rgb(40, 110, 214);
+
+}
+
+nav .scheduled:hover,
+nav .scheduled:active {
+	background: rgb(245, 46, 11);
+}
+
+nav .all:hover,
+nav .all:active {
+	background: rgb(55, 65, 81);
+}
+
+nav .flagged:hover,
+nav .flagged:active {
+	background: rgb(236, 240, 18);
+}
+
+/*NAV ICONS*/
+
+nav p {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav svg {
+	width: 1.5rem;
+	height: 1.2rem;
+	border-radius: 0.5rem;
+
+	stroke: white;
+	fill: white;
 
 
+}
+
+.today svg {
+	background-color: rgb(95, 123, 199);
+}
+
+.scheduled svg {
+	background-color: rgb(230, 49, 17);
+}
+
+.all svg{
+	background-color: rgb(59, 58, 58);
+}
+
+.flagged svg {
+	background-color: rgb(238, 241, 34);
+}
+
+nav span {
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+}
