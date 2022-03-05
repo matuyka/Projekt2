@@ -1,2 +1,2 @@
 # To-Do-App
-Prerábka Mac reminders appky v HTML a CSS by yablko
+Prerábka Mac Reminders appky v HTML a CSS by yablko
